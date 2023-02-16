@@ -11,7 +11,7 @@
 ### Question 2
 - Used **CASE** and **GREATEST** statement for finding the maximum salary between Jan, Feb and Mar as Value.
 - If Jan is greatest then returning Jan, if Feb is greatest then returning Feb else Mar will be greatest
-- The Query is incomplete, it is not returning maximum values of every month
+- Then returning maximum values of every month.
 
 <br/>
 
