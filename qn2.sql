@@ -16,12 +16,12 @@ VALUES('X',5200,9093,3832),
 SELECT Name,
        CASE
            WHEN Jan>=Feb AND Jan>=Mar THEN Jan
-           WHEN Feb>=Jan AND Feb>=Jan THEN Feb
+           WHEN Feb>=Jan AND Feb>=Mar THEN Feb
            ELSE Mar
        END AS Value,
        CASE
            WHEN Jan>=Feb AND Jan>=Mar THEN 'Jan'
-           WHEN Feb>=Jan AND Feb>=Jan THEN 'Feb'
+           WHEN Feb>=Jan AND Feb>=Mar THEN 'Feb'
            ELSE 'Mar'
        END AS Month
  FROM employee_salary; 
